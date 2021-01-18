@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/services/ZooServices.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/repositories/impl/ImpAnimalRepository.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/gui/ZooManagement.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/dao/imp/ImpAnimalDao.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/config/Configuration.java</file>
+        </group>
     </open-files>
 </project-private>

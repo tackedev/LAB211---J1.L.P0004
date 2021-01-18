@@ -19,13 +19,12 @@ public class ZooManagement {
     public static void main(String[] args) {
         
         final Menu mainMenu = new Menu("Zoo Management", true);
-        mainMenu.addOption("1. Load data from file");
-        mainMenu.addOption("2. Add new animal");
-        mainMenu.addOption("3. Update animal");
-        mainMenu.addOption("4. Delete animal");
-        mainMenu.addOption("5. Search animal");
-        mainMenu.addOption("6. Show animal list");
-        mainMenu.addOption("7. Store data to file");
+        mainMenu.addOption("1. Add new animal");
+        mainMenu.addOption("2. Update animal");
+        mainMenu.addOption("3. Delete animal");
+        mainMenu.addOption("4. Search animal");
+        mainMenu.addOption("5. Show animal list");
+        mainMenu.addOption("6. Store data to file");
         mainMenu.addOption("Others- Quit");
         
         final Menu animalTypeMenu = new Menu("Choose type of animal", false);
@@ -50,14 +49,6 @@ public class ZooManagement {
             int choice = mainMenu.getChoice();
             switch (choice) {
                 case 1: {
-                    if (zooServices.load() == 1) {
-                        System.out.println("Load data successfully!");
-                    } else {
-                        System.out.println("Load data fail");
-                    }
-                    break;
-                }
-                case 2: {
                     do {
                         animalTypeMenu.print();
                         int animalType = animalTypeMenu.getChoice();
@@ -76,17 +67,17 @@ public class ZooManagement {
                     } while (KeyboardIO.confirm("Do you want to continue add new animal?", "Try again!"));
                     break;
                 }
-                case 3: {
+                case 2: {
                     Animal updatedAnimal = zooServices.update();
                     if (updatedAnimal != null) {
                         System.out.println("Animal information after updated:");
-                        System.out.println(updatedAnimal);
+                        System.out.println(updatedAnimal.display());
                     } else {
                         System.out.println("Animals does not exist!");
                     }
                     break;
                 }
-                case 4: {
+                case 3: {
                     int deleteStatus = zooServices.delete();
                     switch (deleteStatus) {
                         case 1:
@@ -101,7 +92,7 @@ public class ZooManagement {
                     }
                     break;
                 }
-                case 5: {
+                case 4: {
                     searchingMenu.print();
                     int subChoice = searchingMenu.getChoice();
                     ArrayList<Animal> result = null;
@@ -126,7 +117,7 @@ public class ZooManagement {
                     }
                     break;
                 }
-                case 6: {
+                case 5: {
                     showingMenu.print();
                     int subChoice = showingMenu.getChoice();
                     ArrayList<Animal> result = null;
@@ -153,7 +144,7 @@ public class ZooManagement {
                     }
                     break;
                 }
-                case 7:
+                case 6:
                     if (zooServices.store() == 1) {
                         System.out.println("Store data successfully!");
                     } else {
@@ -162,16 +153,8 @@ public class ZooManagement {
                     break;
                 default:
                     isContinue = false;
-                    
             }
         } while (isContinue);
 
-    }
-    
-    private static void printAnimal(Animal animal) {
-        if (animal instanceof WingedAnimal) {
-            animal = (WingedAnimal) animal;
-        }
-        System.out.println(animal);
     }
 }

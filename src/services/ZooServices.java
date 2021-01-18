@@ -20,6 +20,11 @@ public class ZooServices {
 
     public ZooServices() {
         animalRepository = new ImpAnimalRepository();
+        if (animalRepository.load() == 1) {
+            System.out.println("Load data successfully!");
+        } else {
+            System.out.println("Load data fail!");
+        }
     }
     
     private void inputAnimal(Animal animal) {

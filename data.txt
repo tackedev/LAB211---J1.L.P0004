@@ -1,4 +1,4 @@
-1,1,1,0,1,1,1,1.0,1,1
-2,2,2,2,2,2,2,2.0,2,2,2,false
-3,3,3,2,3,3,3,3.0,3,3,2,true
-4,4,4,4,4,4,4,4.0,4,4
+1;AN11;Snake;0;black and white;poisonous;creeping;3.0;;
+2;AN21;Penguin;2;black and white;cute;walking;6.0;;;2;false
+3;AN31;Pigeon;2;;heroic;walking and flying;1.0;;;2;true
+4;AN41;Tiger;4;;danger;arriving and running;100.0;raw meat;growling
