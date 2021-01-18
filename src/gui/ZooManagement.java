@@ -1,7 +1,6 @@
 package gui;
 
 import entities.Animal;
-import entities.WingedAnimal;
 import java.util.ArrayList;
 import services.ZooServices;
 import utils.KeyboardIO;
