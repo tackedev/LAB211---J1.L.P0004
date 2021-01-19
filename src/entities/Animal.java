@@ -148,6 +148,6 @@ public class Animal {
     }
     
     public String display() {
-        return "ID: " + id + ", name: " + name + ", numlegs: " + numLegs + ", color: " + color + ", characteristic: " + characteristic + ", movingMethod: " + movingMethod + ", weight: " + weight + ", food: " + food + ", makingSoundMethod: " + makingSoundMethod;
+        return "ID: " + id + ", name: " + name + ", numlegs: " + numLegs + ", color: " + color + ", characteristic: " + characteristic + ", movingMethod: " + movingMethod + ", weight: " + weight + "kg, food: " + food + ", makingSoundMethod: " + makingSoundMethod;
     }
 }

@@ -3,11 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/services/ZooServices.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/repositories/impl/ImpAnimalRepository.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/gui/ZooManagement.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/dao/imp/ImpAnimalDao.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/LAB211---J1.L.P0004/src/config/Configuration.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/WingedAnimal.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/BipedalFlyingAnimal.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/LeglessAnimal.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/repositories/impl/ImpAnimalRepository.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/dao/imp/ImpAnimalDao.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/gui/ZooManagement.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/services/ZooServices.java</file>
+            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/Animal.java</file>
         </group>
     </open-files>
 </project-private>

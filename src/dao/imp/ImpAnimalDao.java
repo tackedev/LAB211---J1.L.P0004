@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import config.Configuration;
+import java.util.StringTokenizer;
 
 /**
  *
@@ -37,6 +38,7 @@ public class ImpAnimalDao implements IAnimalDao {
             ArrayList<Animal> result = new ArrayList<>();
             
             while ((line = br.readLine()) != null) {
+                StringTokenizer st = new StringTokenizer(line, ";");
                 String[] prop = line.split(";");
                 switch (prop[0]) {
                     case "1":
@@ -71,7 +73,7 @@ public class ImpAnimalDao implements IAnimalDao {
             PrintWriter pw = new PrintWriter(fw);
             
             list.forEach(obj -> {
-                pw.println(obj);
+                pw.println(obj+"; ");
             });
             pw.close(); fw.close();
             return 1;
