@@ -49,7 +49,13 @@ public class ZooServices {
     
     public int create(int animalType) {
         // input ID
-        String id = KeyboardIO.getNoneEmptyString("Enter ID: ", "The ID cannpt be empty!");
+        String id;
+        do {
+            id = KeyboardIO.getNoneEmptyString("Enter ID: ", "The ID cannpt be empty!");
+            if (id.length() > 5) {
+                System.out.println("ID must be lower or equal 5 charaters!");
+            }
+        } while (id.length() > 5);
         Animal newAnimal = new Animal(id);
         
         //Check ID and put animal into repository

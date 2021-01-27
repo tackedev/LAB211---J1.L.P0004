@@ -2,15 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/WingedAnimal.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/BipedalFlyingAnimal.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/LeglessAnimal.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/repositories/impl/ImpAnimalRepository.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/dao/imp/ImpAnimalDao.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/gui/ZooManagement.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/services/ZooServices.java</file>
-            <file>file:/media/Temporary/Spring_2021/LAB211/ZooManagement/src/entities/Animal.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
